@@ -1,0 +1,97 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #f4f6f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    body > div:first-child {
+        background-color: #ffffff;
+        border-bottom: 1px solid #e1e4e8;
+        padding: 1.2rem 2rem;
+    }
+
+    body > div:first-child > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    body > div:first-child > div > span {
+        color: #0066cc;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+
+    body > div:first-child > div > span:hover {
+        color: #004499;
+        text-decoration: underline;
+    }
+
+    body > div:nth-child(2) {
+        max-width: 1200px;
+        margin: 3rem auto;
+        padding: 0 1.5rem;
+    }
+
+
+    body > div:nth-child(2) > div > h1 {
+        font-size: 2rem;
+        color: #212529;
+        margin-bottom: 0.5rem;
+    }
+
+    body > div:nth-child(2) > div > p {
+        color: #6c757d;
+        margin-bottom: 2rem;
+        font-size: 1.05rem;
+    }
+
+
+    body > div:nth-child(2) > div > div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+
+    body > div:nth-child(2) > div > div > div {
+        background-color: #ffffff;
+        border: 1px solid #e1e4e8;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: pointer;
+    }
+
+    body > div:nth-child(2) > div > div > div:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+        border-color: #d0d7de;
+    }
+
+
+    body > div:nth-child(2) > div > div > div > h2 {
+        font-size: 1.25rem;
+        color: #212529;
+        margin-bottom: 0.75rem;
+    }
+
+    body > div:nth-child(2) > div > div > div > p {
+        font-size: 0.95rem;
+        color: #57606a;
+        margin-bottom: 0.4rem;
+    }
